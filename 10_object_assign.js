@@ -1,4 +1,4 @@
-//file 10_objectAssignB.js
+//file 10_objectAssignB.js 14 march 
 
 const banksbi={  //create the object
     branchCode:101,
