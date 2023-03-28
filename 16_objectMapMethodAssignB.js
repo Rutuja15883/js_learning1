@@ -45,15 +45,19 @@ return element.emp_id;
 console.log(arrOfempId);
 
 console.error("=======4.list of employee name working in TCS");
-let arrcomp=[];
-let result=arr_employee.map((Employee)=>{
-    //let emp_company=element.emp_company;
-    if(Employee.emp_company=="TCS")
-    arrcomp.push(Employee.emp_name);
-        return arrcomp;
-    
+//
+
+arr_employee.map((Employee)=>{
+
+    if(Employee.emp_name=="TCS")
+    {
+      console.log( `Employee Name=${Employee.emp_name}`);
+    }
 });
-console.log(arrcomp);
+//console.log(arrtcs);
+
+
+
 //console.log(arrEmployeeTCS);
 //Nayan mam
 
